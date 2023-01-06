@@ -1,0 +1,180 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* nav section */
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    background-color: yellow;
+}
+
+.nav-title{
+    color: black;
+    font-weight: 600px;
+    font-size: 30px;
+}
+.nav-sub{
+    color: rgb(243, 12, 12);
+}
+
+nav ul{
+    display: flex;
+   
+}
+
+nav ul li{
+list-style: none;
+padding: 0 50px;
+color: black;
+   
+}
+
+/* banner-section */
+
+.banner-container{
+height: 100vh;
+background-image: url(images/2650957.jpg);
+background-repeat: no-repeat;
+text-align: center;
+
+
+
+}
+
+.banner-content{
+    padding: 200px 100px;
+    
+}
+
+.banner-title{
+    color: rgb(244, 244, 248);
+}
+
+.banner-description{
+    color: rgb(187, 184, 184);
+    font-size: 25px;
+    font-weight: 200px;
+    padding-top: 30px;
+}
+
+button{
+    margin-top: 15px;
+    padding: 10px;
+    border: none;
+    background-color: yellow;
+    color: rgb(23, 2, 2);
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 3px;
+
+}
+
+/* donate-section */
+
+.donate{
+
+    margin-top: 50px;
+    text-align: center;
+    margin:0 100px;
+}
+
+.donate-title{
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+
+.donate-blog{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.blog{
+    height: 30px;
+    width: 120;
+    padding: 50px;
+    background-color: rgba(243, 236, 236, 0.763);
+    /* margin-left: 10px; */
+    text-align: center;
+    border: 1px solid black;
+}
+
+.donate-bottom-titile{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 7px;
+}
+
+/* donate plan */
+
+.donate-plan{
+    margin-top: 50px;
+    text-align: center;
+    margin: 100px;
+}
+
+.food-blog{
+margin-left: 30px;
+/* background-color: rgb(240, 234, 234); */
+width: 200px;
+
+
+}
+
+#blog-1{
+    background-color: rgb(165, 196, 223);
+}
+#blog-2{
+    background-color: rgb(173, 223, 165);
+}
+#blog-3{
+    background-color: rgb(122, 151, 144);
+}
+
+
+
+
+.food-image{
+height: 40px;
+padding: 5px;
+}
+
+.food-image-title{
+    padding-left: 10px;
+}
+
+.food-description-blog{
+    padding: 10px;
+}
+
+/* suffer section */
+
+.suffer-section{
+
+    display: flex;
+    padding: 25px;
+    margin-bottom: 30px;
+}
+
+.suffer-blog{
+    text-align: left;
+    width: 500px;
+    padding-left: 30px;
+
+}
+
+.suffer-title{
+    margin-bottom: 10px;
+}
+
+.suffer-image-2{
+    padding-right: 25px;
+}
+
+.footer{
+    color: gray;
+}
